@@ -1,0 +1,103 @@
+html{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    margin: 0;
+}
+
+
+nav{
+    height:5vh;
+    background-color: rgb(50, 50, 50);
+    margin:0;
+    padding:0;
+}
+
+nav ul{
+    height:100%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    margin:0;
+}
+
+nav ul li{
+    padding: 10px 10px 0 10px;
+    list-style: none;
+    height:100%;
+    color: white;  
+}
+
+nav ul li:hover{
+    color: rgb(240, 240, 240);
+    background-color: rgb(60, 60, 60);
+}
+
+.about-me, .hobbies, .abilities{
+    border:2px solid #000;
+    width: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin:10px 0 0 10px;
+    flex-direction: column;
+    height:400px;
+}
+
+
+.about-me dl{
+    display:flex;
+    flex-direction: column;
+}
+
+main{
+    display:flex;
+    align-items: center;
+}
+
+.hobbies{
+    width:300px;
+}
+
+.hobbies ol li{
+    padding:5px;
+}
+
+.color-red{
+    color:#ff0000;
+}
+
+.color-blue{
+    color:#0000ff;
+}
+
+.color-green{
+    color:#235c23;
+}
+
+h2{
+    font-size:20px;
+}
+
+.cat-img{
+    height:200px;
+    width:200px;
+}
+
+.abilities ul{
+    list-style: none;
+    padding:0;
+}
+
+.abilities li{
+    padding:5px;
+}
